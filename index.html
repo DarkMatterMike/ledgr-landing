@@ -21,7 +21,8 @@
 
     /* NAV */
     nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:60px;background:rgba(6,9,15,0.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
-    .nl{font-family:var(--fd);font-size:20px;font-weight:800;color:var(--t1);letter-spacing:-0.5px;text-decoration:none}
+    .nl{font-family:var(--fd);font-size:20px;font-weight:800;color:var(--t1);letter-spacing:-0.5px;text-decoration:none;display:flex;align-items:center;gap:6px}
+    .lglyph{font-family:'Georgia',serif;font-style:italic;font-size:22px;font-weight:400;color:var(--cyan);text-shadow:0 0 12px rgba(0,212,255,0.8),0 0 24px rgba(0,212,255,0.4);line-height:1}
     .nl span{color:var(--cyan)}
     .nlinks{display:flex;gap:28px;list-style:none}
     .nlinks a{color:var(--t2);text-decoration:none;font-size:14px;font-weight:500;transition:color .2s}
@@ -144,7 +145,7 @@
 <body>
 
 <nav>
-  <a href="#" class="nl">ledgr<span>.</span></a>
+  <a href="#" class="nl"><span class="lglyph">&#8467;</span>ledgr<span>.</span></a>
   <ul class="nlinks">
     <li><a href="#features">Features</a></li>
     <li><a href="#how-it-works">How It Works</a></li>
@@ -152,8 +153,8 @@
     <li><a href="#faq">FAQ</a></li>
   </ul>
   <div class="nctas">
-    <a href="https://app.ledgrfinance.app?demo=true" class="bg">Try Demo</a>
-    <a href="https://app.ledgrfinance.app" class="bp">Get Started</a>
+    <a href="https://ledgr-eight-zeta.vercel.app?demo=true" class="bg">Try Demo</a>
+    <a href="https://ledgr-eight-zeta.vercel.app" class="bp">Get Started</a>
   </div>
 </nav>
 
@@ -164,8 +165,8 @@
   <h1>Your finances,<br><em>finally understood.</em></h1>
   <p class="hsub">Ledgr connects to your bank, categorizes every transaction automatically, scores your financial health, and delivers AI-powered insights &mdash; all in a private, ad-free app built for people who actually want to know their numbers.</p>
   <div class="hctas">
-    <a href="https://app.ledgrfinance.app" class="bh">Get Started Free &rarr;</a>
-    <a href="https://app.ledgrfinance.app?demo=true" class="bhg">Try the Demo</a>
+    <a href="https://ledgr-eight-zeta.vercel.app" class="bh">Get Started Free &rarr;</a>
+    <a href="https://ledgr-eight-zeta.vercel.app?demo=true" class="bhg">Try the Demo</a>
   </div>
   <div class="stats">
     <div class="si"><span class="sv c">Live</span><span class="sl">Bank Sync</span></div>
@@ -345,21 +346,21 @@
   <h2>Start understanding your money today.</h2>
   <p>Connect your bank in 60 seconds. No credit card. No ads. No nonsense.</p>
   <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-    <a href="https://app.ledgrfinance.app" class="bh">Get Started Free &rarr;</a>
-    <a href="https://app.ledgrfinance.app?demo=true" class="bhg">Try the Demo</a>
+    <a href="https://ledgr-eight-zeta.vercel.app" class="bh">Get Started Free &rarr;</a>
+    <a href="https://ledgr-eight-zeta.vercel.app?demo=true" class="bhg">Try the Demo</a>
   </div>
 </div>
 
 <!-- FOOTER -->
 <footer>
-  <div class="flo">ledgr<span>.</span></div>
+  <div class="flo" style="display:flex;align-items:center;gap:5px"><span style="font-family:Georgia,serif;font-style:italic;font-size:18px;color:var(--cyan);text-shadow:0 0 10px rgba(0,212,255,0.7)">&#8467;</span>ledgr<span>.</span></div>
   <div class="fli">
     <a href="#features">Features</a>
     <a href="#how-it-works">How It Works</a>
     <a href="#privacy">Privacy</a>
     <a href="#faq">FAQ</a>
-    <a href="https://app.ledgrfinance.app?demo=true">Try Demo</a>
-    <a href="https://app.ledgrfinance.app">App</a>
+    <a href="https://ledgr-eight-zeta.vercel.app?demo=true">Try Demo</a>
+    <a href="https://ledgr-eight-zeta.vercel.app">App</a>
   </div>
   <div class="fco">&copy; 2026 Ledgr. All rights reserved.</div>
 </footer>
